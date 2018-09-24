@@ -19,9 +19,6 @@ class Dog:
     def description(self):
         return self.name, self.age
 
-    def speak(self, sound):
-        return "{} says {}".format(self.name, sound)
-
     def eat(self):
         self.is_hungry = False
 
